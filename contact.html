@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+                input {
+                    display: inline-block;
+                    margin-top: 10px; 
+                    margin-bottom: 10px;
+                    vertical-align: middle;
+                    margin-left: 20px;
+                }
+    
+                label {
+                    display: inline-block;
+                    float: left;
+                    padding-top: 10px;
+                    text-align: right;
+                    width: 250px;
+                }
+                select {
+                    display: inline-block;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    margin-left: 20px;
+                    vertical-align: middle;
+                }
+    
+                textarea {
+                    display: inline-block;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    margin-left: 20px;
+                    vertical-align: middle;
+                }
+                #submit{
+                    margin-left: 430px;
+                }
+
+            h1 {
+               text-align: center; 
+            }
+
+            nav {
+                list-style-type: none;
+                margin-left: 15px;
+                padding: 0;
+                text-align: left;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            nav li {
+                display: inline;
+                padding-right: 40px;
+            }
+
+            footer {
+                text-align: center;
+            }
+    
+            </style>
+    </head>
+    <body>
+        <h1>LAN Cafe</h1>
+        <hr/>
+        <nav>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+        </nav>
+        <hr/>
+        <div class="content">
+            <form>
+                <label for="name">Name: </label> <input type="text" name="name" align="left" /><br/>
+                <label for="email">Email: </label> <input type="text" name="email" align="left" /><br/>
+                <label for="phone">Phone: </label> <input type="text" name="phone" align="left" /><br/>
+                <label for="reason">Reason for Inquiry: </label> 
+                <select>
+                    <option>Catering</option>
+                    <option>Private Party</option>
+                    <option>Feedback</option>
+                    <option>Other</option>
+                </select><br/>
+                <label for="info" id="info_label">Additional Information:</label>
+                <textarea id="info"></textarea><br/>
+                <label>Have you been to the restaurant? </label> <input type="radio" name="answer" value="no" checked/>No<input type="radio" name="answer" value="yes" />Yes<br/>
+                <label for="contact">Best days to contact you: </label><input type="checkbox" name="mon" value="mon" align="left" /> M <input type="checkbox" name="tues" value="tues" align="left" /> T <input type="checkbox" name="wed" value="wed" align="left" /> W <input type="checkbox" name="thur" value="thur" align="left" /> Th <input type="checkbox" name="fri" value="fri" align="left" /> F<br/>
+                <input type="submit" value="Send Request" id="submit"/>
+            </form>
+        </div>
+        <hr/>
+        <footer>
+            <address>
+                625 Fleet Street, Seattle, WA, 55555
+            </address>
+            <p>
+                (787) 353-6666
+            </p>
+        </footer>
+    </body>
+</html>
