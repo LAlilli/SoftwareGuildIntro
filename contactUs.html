@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            input {
+                display: inline-block;
+                margin-top: 10px; 
+                margin-bottom: 10px;
+                vertical-align: middle;
+                margin-left: 20px;
+            }
+
+            label {
+                display: inline-block;
+                float: left;
+                padding-top: 10px;
+                text-align: right;
+                width: 160px;
+            }
+            select {
+                display: inline-block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                vertical-align: middle;
+            }
+
+            textarea {
+                display: inline-block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                vertical-align: middle;
+            }
+            #submit{
+                margin-left: 210px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="firstName">First Name: </label> <input type="text" name="firstName" align="left" /><br/>
+            <label for="lastName">Last Name: </label> <input type="text" name="lastName" align="left" /><br/>
+            <label for="email">Email: </label> <input type="text" name="email" align="left" /><br/>
+            <label for="license">Type of License: </label> <input type="radio" name="license" value="business" checked/>Business<input type="radio" name="license" value="personal" />Personal<br/>
+            <label for="reason">Reason: </label> 
+            <select>
+                <option>Options</option>
+                <option>Software Support</option>
+                <option>Hardware Support</option>
+                <option>Information Request</option>
+            </select><br/>
+            <label for="info" id="info_label">Additional Information:</label>
+            <textarea id="info"></textarea><br/>
+            <label for="terms"></label><input type="checkbox" name="terms" value="terms" align="left" id="terms"/>I have read the terms of service.<br/>
+            <input type="submit" value="Send Request" id="submit"/>
+        </form>
+    </body>
+</html>
