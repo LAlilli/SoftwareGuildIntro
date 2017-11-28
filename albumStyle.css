@@ -13,10 +13,6 @@ table, th, td {
     border-collapse: collapse;
 }
 
-table {
-    background-color: grey;
-}
-
 td {
     font-style: italic;
 }

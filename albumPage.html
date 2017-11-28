@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <link href="albumStyle.css" rel="stylesheet" type="text/css" />
     <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Page Avenue | Story of the Year</title>
         <style>
                 th {
@@ -10,10 +18,10 @@
         </style>
     </head>
     <body>
-        <div align="center">
-                <div class="background">
-                        <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/Page_Avenue.jpg" style="width: 250px; height: 250px;" />
-                </div>
+        <div class="container-fluid" align="center">
+        <div class="background">
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/Page_Avenue.jpg" class="img-circle" style="width: 250px; height: 250px;" />
+        </div>    
             <h2>Page Avenue</h2>
             <h3><a href="http://www.storyoftheyear.net/">Story of the Year</a></h3>
             <h4>9/16/2003</h4>
@@ -28,7 +36,8 @@
             <li>Labels - Epitaph-Maverick</li>
         </ul>
         <h3 align="center">Tracks</h3>
-        <table align="center" width="90%">
+        <div class="table-responsive">
+        <table align="center" width="90%" class="table table-striped">
             <thead align="center">
                 <tr>
                     <th>Track #</th>
@@ -99,5 +108,6 @@
                 </tr>
             </tbody>
         </table>
+        </div>
     </body>
 </html>
