@@ -31,11 +31,16 @@ h1 {
      text-decoration: none;
  }
 
+.jumbotron {
+    text-align: center;
+}
+
  .menu {
      background-color: beige;
+     text-align: center;
  }
  
- .content {
+ .container-fluid {
      background-color: beige;
  }
 
@@ -46,6 +51,11 @@ h1 {
 
 .drinks h2 {
     text-decoration: underline;
+    text-align: left;
+}
+
+.drinks td {
+    text-align: left;
 }
 
  label {

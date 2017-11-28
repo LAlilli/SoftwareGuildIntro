@@ -1,32 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-            <link href="restaurantStyle.css" rel="stylesheet" type="text/css" />
+        <link href="restaurantStyle.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <title>Menu</title>
-        <style>
-            .column{
-                float: left;
-                text-align: center;
-                width: 33.33%;
-            }
 
-            .column p {
-                line-height: .25;
-                margin-bottom: 15px;
-            }
-
-            .row:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-
-        </style>
     </head>
     <body>
         <h1>LAN Cafe</h1>
         <hr/>
-        <nav>
+        <nav class="nav nav-tabs">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -34,7 +20,7 @@
         <hr/>
     <div class="menu">
         <div class="row">
-            <div class="column">
+            <div class="col-sm-3 col-md-6 col-lg-4">
                 <h2>Burger and Fries</h2>
                 <p>An American Classic!</p>
                 <p>Your choice - with or without cheese</p>
@@ -48,7 +34,7 @@
                 <p>Served with our house-made chips</p>
                 <p>$8.95</p>
             </div>
-            <div class="column">
+            <div class="col-sm-3 col-md-6 col-lg-4">
                 <h2>Hot Dog and Chips</h2>
                 <p>A Summer Classic!</p>
                 <p>Your choice - white or wheat bun</p>
@@ -63,7 +49,7 @@
                 <p>Served with a dinner roll</p>
                 <p>$6.95</p>
             </div>
-            <div class="column">
+            <div class="col-sm-3 col-md-6 col-lg-4">
                 <h2>Italian Sausage and Peppers</h2>
                 <p>An All-Time Favorite!</p>
                 <p>Your choice - mild or spicy</p>
@@ -79,6 +65,7 @@
                 <p>$7.95</p>   
             </div>
         </div>
+        <div class="responsive">
         <table class="drinks">
             <thead>
                 <tr>
@@ -105,6 +92,7 @@
                 </tr>
             </tbody>
         </table>
+    </div>
     </div>
         <hr/>
         <footer>
