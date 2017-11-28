@@ -19,6 +19,18 @@ h1 {
      padding-right: 40px;
  }
 
+ nav li:visited {
+     color: green;
+ }
+
+ nav li:hover {
+     font-weight: bold;
+ }
+
+ nav li:active {
+     text-decoration: none;
+ }
+
  .menu {
      background-color: beige;
  }
@@ -26,6 +38,15 @@ h1 {
  .content {
      background-color: beige;
  }
+
+.drinks table, th, td {
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.drinks h2 {
+    text-decoration: underline;
+}
 
  label {
     font-weight: bold;
