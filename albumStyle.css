@@ -13,6 +13,14 @@ table, th, td {
     border-collapse: collapse;
 }
 
+table {
+    background-color: grey;
+}
+
+td {
+    font-style: italic;
+}
+
 .background {
     background-image: url("https://upload.wikimedia.org/wikipedia/en/9/9c/Page_Avenue.jpg"); 
     background-repeat: no-repeat;
@@ -22,4 +30,29 @@ table, th, td {
 
 li {
     font-style: italic;
+}
+
+a {
+    font-weight: none;
+    text-decoration: none;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+a:active {
+    font-weight: bold;
+    text-decoration: none;
 }
