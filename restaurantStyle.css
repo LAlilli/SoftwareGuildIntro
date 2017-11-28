@@ -1,0 +1,23 @@
+/* Stylesheet for LAN Cafe */
+
+h1 {
+    text-align: center; 
+ }
+
+ nav {
+     list-style-type: none;
+     margin-left: 15px;
+     padding: 0;
+     text-align: left;
+     margin-top: 15px;
+     margin-bottom: 15px;
+ }
+
+ nav li {
+     display: inline;
+     padding-right: 40px;
+ }
+ 
+ footer {
+    text-align: center;
+}
