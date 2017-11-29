@@ -31,10 +31,6 @@ h1 {
      text-decoration: none;
  }
 
-.jumbotron {
-    text-align: center;
-}
-
  .menu {
      background-color: beige;
      text-align: center;
@@ -61,6 +57,14 @@ h1 {
  label {
     font-weight: bold;
  }
+
+.carousel p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Impact';
+    vertical-align: center;
+    font-size: 24px;
+}
 
  footer {
     text-align: center;
